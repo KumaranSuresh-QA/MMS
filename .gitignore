@@ -1,0 +1,4 @@
+/target/**
+/Screenshots
+/target/
+.allure

@@ -1,0 +1,1487 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nov 19, 2024 06:41:13 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">System Users - ISO Onboarding Regression</p>
+            <p class="text-sm">
+              <span>6:41:15 pm</span> / <span>00:22:11:254</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">System Users - ISO Onboarding Regression</h5>
+<span class='badge badge-success'>11.19.2024 6:41:15 pm</span>
+<span class='badge badge-danger'>11.19.2024 7:03:26 pm</span>
+<span class='badge badge-default'>00:22:11:254</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> This feature aims to test the functionality of the 'ISO Onboarding' within the application.</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>SystemMaker Login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.i_visit_the_System_maker_login(java.lang.String,int)">
+                <span>Given I visit the System Maker Login in Regression using sheetname "Credentials" and rownumber 1</span>
+      <div><table class='markup-table table '><tr><td>UserName</td><td>Password</td></tr><tr><td>ManikandanMaker</td><td>Credo@123456</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.i_enter_the_credentials_and_click_a_login_button(java.lang.String,int)">
+                <span>And I enter the credentials and click a login button in Regression using sheetname "Credentials" and rownumber 1</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="6"><span class="badge log pass-bg mr-2">Pass</span>System Maker sees Onboarding in Sidemenu in ISO Onboarding</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.I_Visit_System_Maker_Onboarding()">
+                <span>When System Maker - Onboarding should be displayed in the side menu</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="9"><span class="badge log pass-bg mr-2">Pass</span>System Maker sees side menu items in ISO Onboarding</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.System_Maker_seessidemenu_itemsin_Onboarding()">
+                <span>Then the System Maker should see Bank, Aggregators, ISO,SUB ISO, Groupmerchant, Merchant, and Terminal in the side menu of Onboarding</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>System Maker clicks the ISO module</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleISORegression.SystemMakerClicktheBankModule()">
+                <span>When the System Maker clicks the ISO module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="15"><span class="badge log pass-bg mr-2">Pass</span>System Maker Successfully Completes Mandatory Fields in ISO Onboarding</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleISORegression.processAllData(java.lang.String)">
+                <span>Then the System Maker ISO Onboarding should prompt users to enter valid inputs using the sheet name "ISO Regression"</span>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Create :  with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Sales Info : VAS Commission with value 'No' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Sales Info : ISO Appliction Date with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Sales Info : Agreement Date with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 1:  MMS : ISO Onboarding : Sales Info : Aggregator Name with value 'AutooAgre37' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Sales Info : with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info :Legal Name with value 'QVHNNFHCL' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Brand Name with value 'PENMXLP' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Registered Address with value '3rd Floor, Tulive Helix, 100 Feet Rd, near Phoenix Mall, Indira Gandhi Nagar, Velachery, Chennai' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Registered Pincode with value '600032' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Business Type with value 'Individual' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Established Year with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Registered Number with value '7928937774' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Company PAN with value 'CRBYI8337K' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: GstIN with value '17DBAOP4177Q1ZZ' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Statement Frequency with value 'Daily' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Statement Type with value 'Pdf' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Domain with value 'gmail.com,kriyatec.com' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Company Info: Save Button with value 'Company Info' passed.
+      </div>
+      <div>IO Test Case 1:  MMS : ISO Onboarding : Company Info:  with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Title with value 'Mr.' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: FirstName with value 'MCUQGZAY' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: LastName with value 'YGXDMMQC' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Date Of Birth with value '30/11/1998' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Pan with value 'QNSXR6742W' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Address with value '3rd Floor, Tulive Helix, 100 Feet Rd, near Phoenix Mall, Indira Gandhi Nagar, Velachery, Chennai' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Pincode with value '600032' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Mobilenumber with value '9164288830' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Emailid with value 'll1g4@gmail.com' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Nationality with value 'India' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Aadhaar with value '654585434298' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Passport with value 'R4333468' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Date with value 'Passport ExpiryDate' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: Save Button with value 'Personal Info' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Personal Info: with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: Admin user details Communication Name with value 'CJWKWFKP' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: Admin user details Communication Position with value 'CDSKNHJG' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: Admin user details Communication MobileNumber with value '6717647237' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: Admin user details Communication Emailid with value 'doloremque_optio@gmail.com' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: Admin user details AD User with value 'No' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: Admin user details Save Button with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Name with value 'CJWKWFKP' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Position with value 'CDSKNHJG' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication MobileNumber with value '9551544936' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Emailid with value 'ut_molestias@gmail.com' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Save Button with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Communication Info: with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : Channel with value 'POS' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : Network with value 'MasterCard' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Sales' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : Channel with value 'UPI' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Sales' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : Channel with value 'AEPS' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Withdrawal' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : Channel with value 'MATM' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : Network with value 'MasterCard' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Withdrawal' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : Channel with value 'PG' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : Network with value 'MasterCard' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Sales' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Channel Config :  with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : KYC :KYC Details with value '/home/kt009/Pictures/ISO Regression_RandomImage.jpg' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : KYC :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Channel with value 'Pos' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'ISOPOSTest' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Channel with value 'AEPS' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'ISOAEPSTest' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Channel with value 'UPI' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'ISOUPITest' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Channel with value 'MATM' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'ISOMatmTest' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Channel with value 'PG' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'PG ISO Test' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding :DiscountRate :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : SettlementInfo : Settlement Channel with value 'POS' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : SettlementInfo : Settlement AccountType with value 'Current' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : SettlementInfo : BanKAccountNumber with value '84903235271' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : SettlementInfo : IFSC Code with value 'INDB0002257' passed.
+      </div>
+      <div>IO Test Case 1:  MMS : ISO Onboarding : SettlementInfo : Save Button with value 'Commercial' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : SettlementInfo : with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Whitelabel : ISO Onboarding with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Whitelabel : Sales Team Onboarding with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Whitelabel : Allow to create merchant onboard with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Whitelabel : Maximum No Of Platform with value '5' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Whitelabel :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Webhooks : Webhook Type with value 'SMS' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Webhooks : Webhook URL with value 'https://masterv3.credopay.info/' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Webhooks : Save Button with value 'Webhooks' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Webhooks : with value ' NextStep' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Submit for Verification with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : System Maker : Yes Button with value 'Submit for Verfication' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Create :  with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Sales Info : VAS Commission with value 'No' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Sales Info : ISO Appliction Date with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Sales Info : Agreement Date with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 2:  MMS : ISO Onboarding : Sales Info : Aggregator Name with value 'AutooAgre37' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Sales Info : with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info :Legal Name with value 'QNISLZE' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Brand Name with value 'FTTZQKOFV' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Registered Address with value '3rd Floor, Tulive Helix, 100 Feet Rd, near Phoenix Mall, Indira Gandhi Nagar, Velachery, Chennai' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Registered Pincode with value '600032' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Business Type with value 'Individual' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Established Year with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Registered Number with value '8321866296' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Company PAN with value 'GBQDO4798W' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: GstIN with value '33NKDHQ3640M1Z5' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Statement Frequency with value 'Daily' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Statement Type with value 'Pdf' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Domain with value 'gmail.com,kriyatec.com' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Company Info: Save Button with value 'Company Info' passed.
+      </div>
+      <div>IO Test Case 2:  MMS : ISO Onboarding : Company Info:  with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Title with value 'Mr.' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: FirstName with value 'XTWXDKWWI' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: LastName with value 'YPBBZZRK' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Date Of Birth with value '30/11/1998' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Pan with value 'VYJTY3881D' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Address with value '3rd Floor, Tulive Helix, 100 Feet Rd, near Phoenix Mall, Indira Gandhi Nagar, Velachery, Chennai' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Pincode with value '600032' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Mobilenumber with value '6124582017' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Emailid with value '8uvzhn5@gmail.com' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Nationality with value 'India' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Aadhaar with value '720532460357' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Passport with value 'C3151271' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Date with value 'Passport ExpiryDate' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: Save Button with value 'Personal Info' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Personal Info: with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: Admin user details Communication Name with value 'QOTAUKC' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: Admin user details Communication Position with value 'KEAVJVFL' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: Admin user details Communication MobileNumber with value '7933648740' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: Admin user details Communication Emailid with value 'eveniet_est@gmail.com' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: Admin user details AD User with value 'No' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: Admin user details Save Button with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Name with value 'QOTAUKC' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Position with value 'KEAVJVFL' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication MobileNumber with value '8644206540' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Emailid with value 'dolorem_nam@gmail.com' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Save Button with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Communication Info: with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Channel Config : Channel with value 'POS' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Channel Config : Network with value 'MasterCard' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Sales' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Channel Config :  with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : KYC :KYC Details with value '/home/kt009/Pictures/ISO Regression_RandomImage.jpg' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : KYC :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Discount Rate : Channel with value 'Pos' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'ISOPOSTest' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding :DiscountRate :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : SettlementInfo : Settlement Channel with value 'POS' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : SettlementInfo : Settlement AccountType with value 'Current' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : SettlementInfo : BanKAccountNumber with value '71141526921' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : SettlementInfo : IFSC Code with value 'INDB0002257' passed.
+      </div>
+      <div>IO Test Case 2:  MMS : ISO Onboarding : SettlementInfo : Save Button with value 'Commercial' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : SettlementInfo : with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Whitelabel : ISO Onboarding with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Whitelabel : Sales Team Onboarding with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Whitelabel : Allow to create merchant onboard with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Whitelabel : Maximum No Of Platform with value '5' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Whitelabel :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Webhooks : Webhook Type with value 'SMS' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Webhooks : Webhook URL with value 'https://masterv3.credopay.info/' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Webhooks : Save Button with value 'Webhooks' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Webhooks : with value ' NextStep' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Submit for Verification with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : System Maker : Yes Button with value 'Submit for Verfication' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Create :  with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Sales Info : VAS Commission with value 'No' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Sales Info : ISO Appliction Date with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Sales Info : Agreement Date with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 3:  MMS : ISO Onboarding : Sales Info : Aggregator Name with value 'AutooAgre37' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Sales Info : with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info :Legal Name with value 'VCGRTSFW' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Brand Name with value 'NQGFESYMN' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Registered Address with value '3rd Floor, Tulive Helix, 100 Feet Rd, near Phoenix Mall, Indira Gandhi Nagar, Velachery, Chennai' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Registered Pincode with value '600032' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Business Type with value 'Individual' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Established Year with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Registered Number with value '9186561432' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Company PAN with value 'AEAAL9812K' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: GstIN with value '04XNNZJ6257T1ZX' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Statement Frequency with value 'Daily' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Statement Type with value 'Pdf' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Domain with value 'gmail.com,kriyatec.com' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Company Info: Save Button with value 'Company Info' passed.
+      </div>
+      <div>IO Test Case 3:  MMS : ISO Onboarding : Company Info:  with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Title with value 'Mr.' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: FirstName with value 'OKFXUHPBH' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: LastName with value 'ETOVHIRU' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Date Of Birth with value '30/11/1998' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Pan with value 'SCJVZ1386H' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Address with value '3rd Floor, Tulive Helix, 100 Feet Rd, near Phoenix Mall, Indira Gandhi Nagar, Velachery, Chennai' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Pincode with value '600032' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Mobilenumber with value '9423948416' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Emailid with value '2v1079@gmail.com' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Nationality with value 'India' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Aadhaar with value '831961997508' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Passport with value 'T3991889' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Date with value 'Passport ExpiryDate' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: Save Button with value 'Personal Info' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Personal Info: with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: Admin user details Communication Name with value 'KWRQEAPQT' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: Admin user details Communication Position with value 'LZTPRXLAF' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: Admin user details Communication MobileNumber with value '6204262319' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: Admin user details Communication Emailid with value 'quis_expedita@gmail.com' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: Admin user details AD User with value 'No' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: Admin user details Save Button with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Name with value 'KWRQEAPQT' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Position with value 'LZTPRXLAF' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication MobileNumber with value '7558686457' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Emailid with value 'inventore_vel@gmail.com' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Save Button with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Communication Info: with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Channel Config : Channel with value 'UPI' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Sales' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Channel Config : Channel with value 'AEPS' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Withdrawal' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Channel Config :  with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : KYC :KYC Details with value '/home/kt009/Pictures/ISO Regression_RandomImage.jpg' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : KYC :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Discount Rate : Channel with value 'AEPS' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'ISOAEPSTest' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Discount Rate : Channel with value 'UPI' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'ISOUPITest' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding :DiscountRate :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : SettlementInfo : Settlement Channel with value 'UPI' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : SettlementInfo : Settlement AccountType with value 'Current' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : SettlementInfo : BanKAccountNumber with value '50581666942' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : SettlementInfo : IFSC Code with value 'INDB0002257' passed.
+      </div>
+      <div>IO Test Case 3:  MMS : ISO Onboarding : SettlementInfo : Save Button with value 'Commercial' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : SettlementInfo : with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Whitelabel : ISO Onboarding with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Whitelabel : Sales Team Onboarding with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Whitelabel : Allow to create merchant onboard with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Whitelabel : Maximum No Of Platform with value '5' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Whitelabel :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Webhooks : Webhook Type with value 'SMS' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Webhooks : Webhook URL with value 'https://masterv3.credopay.info/' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Webhooks : Save Button with value 'Webhooks' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Webhooks : with value ' NextStep' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Submit for Verification with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : System Maker : Yes Button with value 'Submit for Verfication' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Create :  with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Sales Info : VAS Commission with value 'No' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Sales Info : ISO Appliction Date with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Sales Info : Agreement Date with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 4:  MMS : ISO Onboarding : Sales Info : Aggregator Name with value 'AutooAgre37' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Sales Info : with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info :Legal Name with value 'KPGSDDZCU' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Brand Name with value 'UCTLANW' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Registered Address with value '3rd Floor, Tulive Helix, 100 Feet Rd, near Phoenix Mall, Indira Gandhi Nagar, Velachery, Chennai' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Registered Pincode with value '600032' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Business Type with value 'Individual' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Established Year with value 'Current Date' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Registered Number with value '9008980831' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Company PAN with value 'OJTXI5770B' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: GstIN with value '25FCCQV1871Z1Z9' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Statement Frequency with value 'Daily' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Statement Type with value 'Pdf' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Domain with value 'gmail.com,kriyatec.com' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Company Info: Save Button with value 'Company Info' passed.
+      </div>
+      <div>IO Test Case 4:  MMS : ISO Onboarding : Company Info:  with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Title with value 'Mr.' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: FirstName with value 'YLYLWLZGF' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: LastName with value 'WVVKGUSTS' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Date Of Birth with value '30/11/1998' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Pan with value 'BNZJE5988M' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Address with value '3rd Floor, Tulive Helix, 100 Feet Rd, near Phoenix Mall, Indira Gandhi Nagar, Velachery, Chennai' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Pincode with value '600032' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Mobilenumber with value '6210855800' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Emailid with value '6pu1n5h6a5@gmail.com' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Nationality with value 'India' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Aadhaar with value '898499297653' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Passport with value 'R6928139' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Date with value 'Passport ExpiryDate' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: Save Button with value 'Personal Info' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Personal Info: with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: Admin user details Communication Name with value 'ANUCSSNPB' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: Admin user details Communication Position with value 'BYHACUP' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: Admin user details Communication MobileNumber with value '8336126887' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: Admin user details Communication Emailid with value 'quis_voluptas@gmail.com' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: Admin user details AD User with value 'No' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: Admin user details Save Button with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Name with value 'ANUCSSNPB' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Position with value 'BYHACUP' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication MobileNumber with value '9767455733' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Communication Emailid with value 'quasi_aspernatur@gmail.com' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: SettlementReconContactDetails Save Button with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Communication Info: with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config : Channel with value 'MATM' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config : Network with value 'MasterCard' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Withdrawal' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config : Channel with value 'PG' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config : Network with value 'MasterCard' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Sales' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config : Channel with value 'POS' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config : Network with value 'MasterCard' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config : TransactionSet with value 'Sales' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : ChannelConfig : Start Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : ChannelConfig : END Date with value 'Valid Date' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config :  with value 'Save Button' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Channel Config :  with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : KYC :KYC Details with value '/home/kt009/Pictures/ISO Regression_RandomImage.jpg' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : KYC :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Discount Rate : Channel with value 'MATM' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'ISOMatmTest' failed.
+      </div>
+      <div>Error: expected: <ISOMATMTEST> but was: <>
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' failed.
+      </div>
+      <div>Error: expected: <ISOMATMTEST> but was: <>
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Discount Rate : Channel with value 'PG' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'PG ISO Test' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Discount Rate : Channel with value 'Pos' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Discount Rate : Pricing Plan with value 'ISOPOSTest' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding :DiscountRate :Save Button with value 'ISO Discount Rate' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding :DiscountRate :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : SettlementInfo : Settlement Channel with value 'POS' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : SettlementInfo : Settlement AccountType with value 'Current' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : SettlementInfo : BanKAccountNumber with value '29377098177' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : SettlementInfo : IFSC Code with value 'INDB0002257' passed.
+      </div>
+      <div>IO Test Case 4:  MMS : ISO Onboarding : SettlementInfo : Save Button with value 'Commercial' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : SettlementInfo : with value 'NextStep' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Whitelabel : ISO Onboarding with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Whitelabel : Sales Team Onboarding with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Whitelabel : Allow to create merchant onboard with value 'Yes' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Whitelabel : Maximum No Of Platform with value '5' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Whitelabel :  with value ' NextStep ' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Webhooks : Webhook Type with value 'SMS' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Webhooks : Webhook URL with value 'https://masterv3.credopay.info/' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Webhooks : Save Button with value 'Webhooks' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Webhooks : with value ' NextStep' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Submit for Verification with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : System Maker : Yes Button with value 'Submit for Verfication' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Profile & Log Out with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Yes Button with value 'Log-Out' passed.
+      </div>
+      <div>Total Dashboard Count: 48
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>System verifier Login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.i_visit_the_System_verifier_login(java.lang.String,int)">
+                <span>Given I visit the System Verifier Login in Regression using sheetname "Credentials" and rownumber 2</span>
+      <div><table class='markup-table table '><tr><td>UserName</td><td>Password</td></tr><tr><td>Manikandan_Verifier</td><td>Credo@12345</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.i_enter_the_credentials_and_click_a_login_button(java.lang.String,int)">
+                <span>And I enter the credentials and click a login button in Regression using sheetname "Credentials" and rownumber 2</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="22"><span class="badge log pass-bg mr-2">Pass</span>System Verifier sees Onboarding in Sidemenu in ISO Onboarding</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.I_Visit_System_Verifier_Onboarding()">
+                <span>When System Verifier - Onboarding should be displayed in the side menu</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="25"><span class="badge log pass-bg mr-2">Pass</span>System Verifier sees side menu items in ISO Onboarding</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.System_Verifier_seessidemenu_itemsin_Onboarding()">
+                <span>Then the System Verifier should see Bank, Aggregators, ISO,SUB ISO, Groupmerchant, Merchant, and Terminal in the side menu of Onboarding</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>System Verifier clicks the ISO module</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleISORegression.SystemVerifierClicktheBankModule()">
+                <span>When the System Verifier clicks the ISO module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="31"><span class="badge log fail-bg mr-2">Fail</span>System Verifier Successfully Verifies All Steps in ISO Onboarding</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="org.Testcases.SystemUserMultipleISORegression.processAllData1(java.lang.String)">
+                <span>When the System Verifier completes ISO Onboarding, the system should prompt to verify all steps using the sheet name "ISO Regression"</span>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Actions and View with value 'ISO Status Inprogress' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Verified with value 'Sales Info' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Verified with value 'Company Info' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Verified with value 'Personal Info' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Verified with value 'Communication Info' passed.
+      </div>
+      <div>No such element found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Verified & Next')]"}
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-125-generic', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f5ee841dd66fac0831cd0feeea7e475, findElement {using=xpath, value=//span[contains(text(),'Verified & Next')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36947/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f5ee841dd66fac0831cd0feeea7e475
+      </div>
+      <div>No such element found: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Verified & Next')]"}
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-125-generic', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f5ee841dd66fac0831cd0feeea7e475, findElement {using=xpath, value=//span[contains(text(),'Verified & Next')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36947/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f5ee841dd66fac0831cd0feeea7e475
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Actions and View with value 'ISO Status Inprogress' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'Sales Info' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'Company Info' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'Personal Info' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'Channel Config' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'KYC-ISO' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'Discount Rate' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'Settlement Info' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'Whitelabel' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Verified with value 'Webhooks' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : Submit for Approval with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 2: MMS : ISO Onboarding : System Verifier : Yes Button with value 'Submit for Approval' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Actions and View with value 'ISO Status Inprogress' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'Sales Info' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'Company Info' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'Personal Info' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'Channel Config' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'KYC-ISO' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'Discount Rate' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'Settlement Info' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'Whitelabel' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Verified with value 'Webhooks' passed.
+      </div>
+      <div>IO Test Case 3: MMS : ISO Onboarding : Submit for Approval with value 'ISO' passed.
+      </div>
+      <div>Stale element reference: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-125-generic', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f5ee841dd66fac0831cd0feeea7e475, isElementDisplayed {id=f.3043A6DCC2286C5F6FA2BCCAC3D5B23B.d.B856B22E167ABC7394488F211B71600F.e.5350}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36947/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (1f5ee841dd66fac0831cd0feeea7e475)] -> xpath: //h2[contains(normalize-space(text()), 'Successfully Completed')]]
+Session ID: 1f5ee841dd66fac0831cd0feeea7e475
+      </div>
+      <div>Stale element reference: stale element reference: stale element not found in the current frame
+  (Session info: chrome=130.0.6723.116)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-125-generic', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f5ee841dd66fac0831cd0feeea7e475, isElementDisplayed {id=f.3043A6DCC2286C5F6FA2BCCAC3D5B23B.d.B856B22E167ABC7394488F211B71600F.e.5350}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36947/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on linux (1f5ee841dd66fac0831cd0feeea7e475)] -> xpath: //h2[contains(normalize-space(text()), 'Successfully Completed')]]
+Session ID: 1f5ee841dd66fac0831cd0feeea7e475
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Actions and View with value 'ISO Status Inprogress' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'Sales Info' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'Company Info' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'Personal Info' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'Communication Info' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'Channel Config' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'KYC-ISO' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'Discount Rate' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'Settlement Info' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'Whitelabel' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Verified with value 'Webhooks' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Submit for Approval with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : System Verifier : Yes Button with value 'Submit for Approval' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Profile & Log Out with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 4: MMS : ISO Onboarding : Yes Button with value 'Log-Out' passed.
+      </div>
+      <div>Total Dashboard Count: 2
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log pass-bg mr-2">Pass</span>System Approver Login</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.i_visit_the_System_Approver_login(java.lang.String,int)">
+                <span>Given I visit the System Approver Login in Regression using sheetname "Credentials" and rownumber 3</span>
+      <div><table class='markup-table table '><tr><td>UserName</td><td>Password</td></tr><tr><td>Manikandanapprover</td><td>Credo@1234</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.i_enter_the_credentials_and_click_a_login_button(java.lang.String,int)">
+                <span>And I enter the credentials and click a login button in Regression using sheetname "Credentials" and rownumber 3</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="38"><span class="badge log pass-bg mr-2">Pass</span>System Approver sees Onboarding in Sidemenu</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.I_Visit_System_Approver_Onboarding()">
+                <span>When System Approver - Onboarding should be displayed in the side menu</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="41"><span class="badge log pass-bg mr-2">Pass</span>System Approver sees side menu items in ISO Onboarding</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleBankRegression.System_Approver_seessidemenu_itemsin_Onboarding()">
+                <span>Then the System Approver should see Bank, Aggregators, ISO,SUB ISO, Groupmerchant, Merchant, and Terminal in the side menu of Onboarding</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="44"><span class="badge log pass-bg mr-2">Pass</span>System Approver clicks the ISO module</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.Testcases.SystemUserMultipleISORegression.SystemApproverClicktheBankModule()">
+                <span>When the System Approver clicks the ISO module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="47"><span class="badge log fail-bg mr-2">Fail</span>System Approver Successfully Approve in ISO Onboarding</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="org.Testcases.SystemUserMultipleISORegression.processAllData2(java.lang.String)">
+                <span>When the System Approver completes ISO Onboarding, the system should prompt to Approve using the sheet name "ISO Regression"</span>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Search by name with value 'QVHNNFHCL' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : Approval with value 'ISO' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : System Approver : Yes with value 'Approval' passed.
+      </div>
+      <div>IO Test Case 1: MMS : ISO Onboarding : System Approver : Success pop-up Ok with value 'Approval' passed.
+      </div>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-125-generic', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f5ee841dd66fac0831cd0feeea7e475, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:36947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:36947/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f5ee841dd66fac0831cd0feeea7e475
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at org.Testcases.SystemUserMultipleISORegression.takeScreenshot(SystemUserMultipleISORegression.java:166)
+	at org.Testcases.SystemUserMultipleISORegression.processAllData2(SystemUserMultipleISORegression.java:2815)
+	at ✽.the System Approver completes ISO Onboarding, the system should prompt to Approve using the sheet name "ISO Regression"(file:///home/kt009/eclipse-workspace/MMSCredopay/src/test/resources/SystemUser-MultipleISO.feature:86)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.openqa.selenium.NoSuchWindowException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.NoSuchWindowException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>19:01:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='49'>When the System Approver completes ISO Onboarding, the system should prompt to Approve using the sheet name "ISO Regression"</a>
+<div class="">
+<span class="badge badge-default">System Users - ISO Onboarding Regression.System Approver Successfully Approve in ISO Onboarding.When the System Approver completes ISO Onboarding, the system should prompt to Approve using the sheet name "ISO Regression"</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Nov 19, 2024 06:41:13 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Nov 19, 2024 07:03:26 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='86%'><b>13</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='13%'><b>2</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='88%'><b>16</b> steps passed</small></div>
+<div>
+<small data-tooltip='11%'><b>2</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"System Users - ISO Onboarding Regression":1331.254
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 13,
+failChild: 2,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 16,
+failGrandChild: 2,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
